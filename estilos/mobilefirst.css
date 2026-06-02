@@ -4,6 +4,10 @@
 Marron: #783d28
 Amarelo: #c88534
 vermelho
+vermelho #BA080C
+amarelo #D1850F
+marron #581105
+#FDF0CC
 */
 
 *{
@@ -13,7 +17,7 @@ vermelho
 
 body,html{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #783d28;
+    background-color: #FDF0CC;
     
 }
 
@@ -22,9 +26,8 @@ menu{
     
 }
 span#burguer{
-    background-color: rgb(73, 73, 73);
+    background-color: #582d1d;
     color: white;
-    
     text-align: center;
     display: block;
     padding: 10px;
@@ -33,20 +36,26 @@ span#burguer:hover{
     cursor: pointer;
 }
 header{
-    background-color: gray;
+    background-color: #783d28;
 }
 header>h1{
     text-align: center;
     padding: 10px;
+    color: white;
 }
 menu > ul> li > a{
-    background-color: rgb(54, 54, 54);
+    background-color: #783d28;
     text-align: center;
     display: block;
     color: white;
     text-decoration: none;
     padding: 15px;
-    border-bottom: 2px solid #783d28;
+    border-top: 2px solid #000000;
+    font-weight: bold;
+    
+}
+menu > ul> li > a:hover{
+    background-color: #834a35;
 }
 
 section{
@@ -59,12 +68,13 @@ section{
     
 }
 section.texto{
-    background-color: #c88534;
+    background-color: #FDF0CC;
+    
     
 }
 
 section.texto p{
-    background-color: #bd996ec0;
+    
     display: inline-block;
     padding: 8px;
     color: rgb(0, 0, 0);
@@ -79,6 +89,11 @@ section.imagem{
    color: white;
    line-height: 4em;
 }
+section.imagem>p{
+    background-color: #fdf0cc7a;
+    display: inline-block;
+    padding: 10px;
+}
 section#img1{
     background-image: url('../imagens/salgadinhoktchup.jpg');
     background-position: center;
@@ -87,8 +102,39 @@ section#img1{
     
 }
 
+aside{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #783d28;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    margin: auto;
+    display: block;
+    margin: 20px;
+   color: white;
+   
+}
+aside h2{
+    background-color: #582d1d;
+    margin: -36px -10px 35px -10px;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+    
+    
+
+   
+}
+aside a{
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+}
+
 footer{
     padding: 10px;
     text-align: center;
+    background-color: #783d28;
+    color: white;
+    
 }
 
