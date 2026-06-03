@@ -37,11 +37,15 @@ span#burguer:hover{
 }
 header{
     background-color: #783d28;
+   
 }
 header>h1{
     text-align: center;
     padding: 10px;
     color: white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+   
 }
 menu > ul> li > a{
     background-color: #783d28;
