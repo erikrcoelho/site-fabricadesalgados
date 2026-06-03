@@ -17,3 +17,12 @@
     
 }
 
+@media  screen and (min-width:992px) {
+    section.link{
+       min-width: 500px;
+       max-width: 500px;
+       margin: auto;
+    }
+
+    
+}
