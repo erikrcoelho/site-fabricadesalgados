@@ -7,6 +7,7 @@
     }
     form>div>input{
         width: 441px;
+        width: 100%
     }
     div#form>p{
         text-align: center;
@@ -20,6 +21,7 @@
     }
     form>div>input{
         width: 620px;
+        width: 100%
     }
     div#form>p{
         text-align: center;
