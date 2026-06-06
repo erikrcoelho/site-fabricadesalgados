@@ -69,7 +69,6 @@ form>input[type=submit]{
     border-radius: 20px;
     margin: auto;
     border: none;
-   
 }
 form>input[type=submit]:hover{
     cursor: pointer;

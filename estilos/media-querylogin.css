@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section#login{
+        width: 471px;
+        height: 516px;
+    }
+    form>div>input{
+        width: 441px;
+    }
+    div#form>p{
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:992px){
+    section#login{
+        width: 649px;
+        height: 552px;
+    }
+    form>div>input{
+        width: 620px;
+    }
+    div#form>p{
+        text-align: center;
+        font-weight: bold;
+    }
+    form>input[type=submit]{
+        font-weight: bold;
+    }
+}
