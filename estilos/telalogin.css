@@ -23,6 +23,22 @@ body,html{
     background-image: url(../imagens/salgadinhoktchup.jpg);
     background-position-x: center;
 }
+
+main{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section#login{
+    background-color:#fdf0ccb7;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
 div#form>h1{
     text-align: center;
     padding: 10px;
@@ -36,7 +52,7 @@ section{
     background-color: white;
 }
 
-section#login{
+/*section#login{
     background-color:#fdf0ccb7;
     width: 250px;
     height: 500px;
@@ -47,7 +63,7 @@ section#login{
     transform: translate(-50%,-50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
-}
+}*/
 form div{
     background-color: #783d28;
     height: 60px;
